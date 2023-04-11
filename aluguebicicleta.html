@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Escolha entre bicicleta elétrica e bicicleta normal.</h2>
+    <p>
+        <h2>Depois escolha o local disponível.</h2>
+    </p>
+    <form method="get" action="aluguebicicleta.php">
+        <p> 
+            Tipo de Bicicleta:
+            <select name="bicicletas" id="bicicletas">
+                <option value="elétrica">Elétrica</option>
+                <option value="normal">Normal</option>
+            </select>
+        </p>
+        <div>
+            <p>
+                Tempo de Aluguel:
+                <input type="radio" id="hora" name="tempo" value="hora">
+                <label for="hora">Hora</label>
+                <input type="radio" id="dia" name="tempo" value="dia">
+                <label for="dia">Dia (25% desconto)</label>
+                <input type="radio" id="mes" name="tempo" value="mes">
+                <label for="mes">Mês (40% desconto)</label>
+            </p>
+        </div>
+        <p>
+            Local : <input type="text" name="local" size="60" required="required">
+        </p>
+    <fieldset>
+        <p>
+            Disponibilidade:
+        </p>
+        <fieldset>
+        <p>
+            Avenida Fernando Corrêa Da Costa.<br>
+            4 elétrica. <br>
+            4 normal.
+        </p>
+        </fieldset>
+        <fieldset>
+        <p>
+            Avenida Historiador Rubens De Mendonça. <br>
+            5 elétrica. <br>
+            5 normal.
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            Avenida Getúlio Vargas.<br>
+            4 elétrica. <br>
+            5 normal.
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            Avenida Beira Rio.<br>
+            5 elétrica. <br>
+            4 normal.
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            Avenida Das Torres.<br>
+            6 elétrica. <br>
+            6 normal.
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            Avenida Isaac Povoas.<br>
+            5 elétrica. <br>
+            6 normal.
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            Rua Barão De Melgaço.<br>
+            6 elétrica. <br>
+            5 normal.
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            Avenida São Sebastião.<br>
+            4 elétrica. <br>
+            6 normal.
+        </p>
+    </fieldset>
+    </fieldset>
+        <p>
+            <input type="submit" name="alugar" value="Alugar">
+        </p>
+    </form>
+</body>
+</html>

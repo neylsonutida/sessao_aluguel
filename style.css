@@ -1,0 +1,83 @@
+.main{
+    background-color: lightgray;
+    width: 12rem;
+    height: 14rem;
+    border: none;
+}
+
+.titulo{
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    height: 15%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: brown;
+    width: 100%;
+}
+
+.corpo{
+    margin: 0;
+    padding: 1rem;
+    height: 85%;
+    background-color: gray;
+    width: 100%;
+}
+
+input{
+    padding: 2px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+p{
+    margin: 5px;
+}
+
+.botao{
+    color: white;
+    background-color: green;
+}
+
+.cadastro{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    justify-content: right;
+    display: flex;
+    margin: 0rem;
+}
+
+#menu_h{
+    background-color: black;
+}
+
+#menu_h ul{
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+#menu_h ul li{
+    display: inline;
+}
+
+#menu_h ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu_h ul li a:hover{
+    background-color: lightgrey;
+}
+
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
