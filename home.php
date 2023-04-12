@@ -14,7 +14,7 @@
     para sua rotina. Pegue uma bicicleta e devolva em qualquer outra estação.</h4><br><br>
 </p>
 <p>
-    <h4>Confira os principais modelos de bike e o local das estações no Alugue sua bicicleta.</h4>
+    <h4>Confira os principais modelos de bike e o local das estações no "Alugue sua bicicleta".</h4>
 </p>
 
 <div class="divimagem">

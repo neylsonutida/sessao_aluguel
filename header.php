@@ -10,8 +10,7 @@
 <body>
     <header>
         <h1>Bem-vindo a locação de bikes YoPedal</h1>
-        <h4>Faça o seu cadastro como cliente. Em seguida, faça seu login para iniciar sua sessão para 
-            prepararmos sua bike...</h4>
+        <h4>Basta alugar pelo site e retirar a bike da estação...</h4>
         <nav id="menu_h">
             <ul>
                 <li><a href="?pagina=home"> Home</a></li>
