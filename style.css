@@ -1,8 +1,10 @@
 .main{
-    background-color: lightgray;
-    width: 12rem;
-    height: 14rem;
+    
+    background-color: blue;
+    width: 15%;
+    height: 50%;
     border: none;
+    margin: 5rem 20rem;
 }
 
 .titulo{
@@ -78,6 +80,7 @@ html, body {
     min-height: 100%;
 }
 body {
+    background-image: url('https://images.unsplash.com/photo-1587622148498-ce97ad5dad0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
     padding: 0;
     margin: 0;
 }
