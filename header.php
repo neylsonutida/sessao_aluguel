@@ -10,6 +10,7 @@
 <body>
     <header>
         <h1>Bem-vindo a locação de bikes YoPedal</h1>
+        
         <h4>Basta alugar pelo site e retirar a bike da estação...</h4>
         <nav id="menu_h">
             <ul>
