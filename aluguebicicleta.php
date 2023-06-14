@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+    include "conexao.php";
+
     $bicicletas = $_GET['bicicletas'];
     $tempo = $_GET['tempo'];
     $local = $_GET['local'];
@@ -19,15 +21,7 @@ session_start();
         include "conexao.php";
 
     //stmt = statement
-        $sql = "INSERT INTO aluguel (bicicletas, tempo, local)
-                VALUES (:bicicletas, :tempo, :local)";
-
-        $stmt = $conexao->prepare($sql);
-
-        $stmt->bindValue(':bicicletas', $bicicletas);
-        $stmt->bindValue(':tempo', $tempo);
-        $stmt->bindValue(':local', $local);
-        $stmt->execute();
+        
 
         echo " ".$_SESSION['pessoa'].", bicicleta alugada com sucesso!!<br><br><hr>";
 

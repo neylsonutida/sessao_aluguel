@@ -1,8 +1,8 @@
 <?php
 
-$host = "localhost:3307";
+$host = "localhost:3306";
 $database = "yopedal";
 $user = "root";
-$pass = "";
+$pass = "sucesso";
 
 $conexao = new PDO("mysql:host=$host; dbname=$database", $user, $pass);

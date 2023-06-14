@@ -10,7 +10,7 @@ $cpf_digitado   = $_POST["cpf"];
 $senha_digitada = $_POST["senha"];
 
 //3 - Query busca de dados
-$buscar_cadastro = "SELECT * FROM cadastro WHERE cpf = '$cpf_digitado'";
+$buscar_cadastro = "SELECT * FROM usuarios WHERE cpf = '$cpf_digitado'";
 
 //4 - statement prepara a query
 $stmt = $conexao->prepare($buscar_cadastro);

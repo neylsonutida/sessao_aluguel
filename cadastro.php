@@ -51,7 +51,7 @@
     //url, nome do banco, user, senha
     //C:\xampp\phpMyAdmin\config.inc
     //1- 
-    $sql = "INSERT INTO cadastro (nome, cpf, email, senha)
+    $sql = "INSERT INTO usuarios (nome, cpf, email, senha)
             VALUES (:nome, :cpf, :email, :senha)";
 
     //stmt = statement
